@@ -23,6 +23,8 @@ BuildRequires:	perl-Template-Toolkit >= 2.2
 BuildRequires:	perl-Text-Autoformat >= 1.13
 %endif
 BuildArch:	noarch
+Provides:	perl-Template-Toolkit-Plugin-Autoformat
+Obsoletes:	perl-Template-Toolkit-Plugin-Autoformat
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
